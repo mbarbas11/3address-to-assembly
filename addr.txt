@@ -1,0 +1,9 @@
+INT i 0
+INT max 20
+CHAR s "i is %d\n"
+JUMP ge, 9, i, max
+MASK z, 7, i, 1
+PRINT s, i, 0
+INC i
+GOTO 4
+END
